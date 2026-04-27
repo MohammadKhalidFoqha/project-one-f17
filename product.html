@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+  <body>
+    <header class="py-4.25">
+      <div
+        class="h-full container mx-auto px-2 flex items-center justify-content-between"
+      >
+        <div
+          class="h-full container mx-auto flex items-center justify-content-between"
+        >
+          <h3 class="text-[28px] font-semibold font-Poppins">3legant.</h3>
+          <div class="listnav ms-auto">
+            <ul
+              class="flex items-center gap-10 font-Grotesk font-medium text-[17px] max-[800px]:hidden"
+            >
+              <li
+                class="hover:bg-[#171D28]/70 hover:text-white hover:ring transition-all px-3.5 py-2 rounded-[14px]"
+              >
+                Home
+              </li>
+              <li
+                class="hover:bg-[#171D28]/70 hover:text-white hover:ring transition-all px-3.5 py-2 rounded-[14px] group flex justify-content-center items-center"
+              >
+                Shop
+                <i
+                  class="fa-solid fa-angle-down transition-all group-hover:translate-y-0.5"
+                ></i>
+              </li>
+              <li
+                class="hover:bg-[#171D28]/70 hover:text-white hover:ring transition-all px-3.5 py-2 rounded-[14px] group flex justify-content-center items-center"
+              >
+                Product
+                <i
+                  class="fa-solid fa-angle-down transition-all group-hover:translate-y-0.5"
+                ></i>
+              </li>
+              <li
+                class="hover:bg-[#171D28]/70 hover:text-white hover:ring transition-all px-3.5 py-2 rounded-[14px]"
+              >
+                Contact Us
+              </li>
+            </ul>
+          </div>
+          <button class="w-12 h-12 laptop:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="iconnav ms-auto flex items-center gap-4">
+            <i class="fa-solid fa-magnifying-glass max-[800px]:opacity-0"></i>
+            <i class="fa-regular fa-circle-user max-[800px]:opacity-0" ></i>
+            <div class="icon-wrapper flex items-center gap-2 fs-[24px]">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span
+                class="bg-black text-white w-[18px] h-[18px] rounded-full font-bold text-center leading-4.5 text-[12px]"
+                >2</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto px-2">
+        <div class="nav flex gap-2 items-center">
+          <div class="home">
+            <a href="./index.html" class="font-inter text-[#605F5F]">Home</a>
+            <i class="fa-solid fa-chevron-right text-[13px] text-[#605F5F]"></i>
+          </div>
+          <div class="Shop">
+            <a href="#" class="font-inter text-[#605F5F]">Shop</a>
+            <i class="fa-solid fa-chevron-right text-[13px] text-[#605F5F]"></i>
+          </div>
+          <div class="home">
+            <a href="#" class="font-inter text-[#605F5F]">Home</a>
+            <i class="fa-solid fa-chevron-right text-[13px] text-[#605F5F]"></i>
+          </div>
+          <p class="font-inter text-[18px]">Product</p>
+        </div>
+      </div>
+      <section class="product">
+        <div class="container mx-auto px-2 flex gap-2 max-[1000px]:flex-col">
+          <div class="img-product flex flex-col gap-3 flex-1 relative">
+            <div class="black-img">
+              <div
+                class="detail flex flex-col gap-1 items-start absolute top-6 left-5"
+              >
+                <span
+                  class="font-inter font-bold py-1 px-3 z-9999 bg-white rounded-md"
+                  >NEW</span
+                >
+                <span
+                  class="font-inter font-bold py-1 px-3 text-white z-9999 bg-[#38CB89] rounded-md"
+                  >-50%</span
+                >
+              </div>
+              <div class="img relative ">
+                <img src="./assets/product-page-img/black-tab.png" alt="" class="max-[1000px]:w-full  " />
+                <div class="icon-step flex">
+                  <button
+                    class="absolute left-8.5  top-1/2 -translate-y-2 w-[20px] h-[20px] p-4 bg-white/80 rounded-full flex items-center justify-center leading-[20px]"
+                  >
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+
+                  <button
+                    class="absolute right-37.5 max-[1000px]:right-3 max-[1280px]:right-3 top-1/2 -translate-y-2 w-5 h-5 p-4 bg-white/80 rounded-full flex items-center justify-center leading-5"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="part-of-table-img flex gap-6 max-[1280px]:hidden">
+              <img src="./assets/product-page-img/part of table 1.png" alt="" />
+              <img src="./assets/product-page-img/part of table 2.png" alt="" />
+              <img src="./assets/product-page-img/part of table 3.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="product-details font-Poppins flex-1 flex flex-col  gap-7.75"
+          >
+            <div class="flex gap-2">
+              <div class="flex text-sm mb-1 text-[#343839]">★★★★★</div>
+              <span class="text-[13px]">11 Reviews</span>
+            </div>
+            <h2 class="text-[36px] font-semibold">Tray Table</h2>
+            <p class="text-[#6C7275]">
+              Buy one or buy a few and make every space where you sit more
+              convenient. Light and easy to move around with removable tray top,
+              handy for serving snacks.
+            </p>
+            <div class="price flex items-center gap-2">
+              <span class="text-[24px] font-medium">$199.00</span>
+              <span class="line-through text-[#6C7275]">$400.00</span>
+            </div>
+            <div class="w-full h-[0.2px] bg-[#6C7275]"></div>
+            <p class="text-[#6C7275]">Offer expires in:</p>
+            <div class="flex gap-2">
+              <div class="days flex flex-col text-center">
+                <span class="p-5 bg-[#F3F5F7] text-[20px] font-semibold"
+                  >02</span
+                >
+                <span class="text-[#6C7275]">Days</span>
+              </div>
+              <div class="hours flex flex-col">
+                <span class="p-5 bg-[#F3F5F7] text-[20px] font-semibold"
+                  >12</span
+                >
+                <span class="text-[#6C7275]">Hours</span>
+              </div>
+              <div class="Minutes flex flex-col">
+                <span class="p-5 bg-[#F3F5F7] text-[20px] font-semibold"
+                  >45</span
+                >
+                <span class="text-[#6C7275]">Minutes</span>
+              </div>
+              <div class="Seconds flex flex-col">
+                <span class="p-5 bg-[#F3F5F7] text-[20px] font-semibold"
+                  >05</span
+                >
+                <span class="text-[#6C7275]">Seconds</span>
+              </div>
+            </div>
+            <div class="w-full h-[0.2px] bg-[#6C7275]"></div>
+            <div class="flex gap-5">
+              <button
+                class="flex gap-3 items-center bg-[#F3F5F7] py-2 px-6 rounded-[5px]"
+              >
+                <i class="fa-solid fa-minus text-[12px] text-[#6C7275]"></i>
+                <span class="font-semibold text-[18px]">1</span>
+                <i class="fa-solid fa-plus text-[12px] text-[#6C7275]"></i>
+              </button>
+              <button
+                class="flex gap-2 items-center text-center justify-center bg-white border py-2 w-full rounded-[5px]"
+              >
+                <i class="fa-regular fa-heart"></i>
+                <span>Wishlist</span>
+              </button>
+            </div>
+            <button class="py-2 w-full rounded-[5px] bg-black text-white">
+              Add to Cart
+            </button>
+            <div class="w-full h-[0.2px] bg-[#6C7275]"></div>
+            <div class="flex gap-5">
+              <div class="flex flex-col gap-2">
+                <span class="text-[#6C7275]">SKU</span>
+                <span class="text-[#6C7275]">CATEGORY</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span>1117</span>
+                <span>Living Room, Bedroom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    
+  </body>
+</html>
